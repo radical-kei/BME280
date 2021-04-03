@@ -123,6 +123,7 @@ void get_temp_server(void){
             break;
         }
     }
+    close(clitSock);
 
 LABEL_END:
     close(servSock);
