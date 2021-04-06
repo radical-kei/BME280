@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9504852619760600F33AC0 /* TempHumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9504842619760600F33AC0 /* TempHumApp.swift */; };
+		FB9504872619760600F33AC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9504862619760600F33AC0 /* ContentView.swift */; };
+		FB9504892619760600F33AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9504882619760600F33AC0 /* Assets.xcassets */; };
+		FB95048C2619760600F33AC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB95048B2619760600F33AC0 /* Preview Assets.xcassets */; };
+		FB9504972619760700F33AC0 /* TempHumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9504962619760700F33AC0 /* TempHumTests.swift */; };
+		FB9504A22619760700F33AC0 /* TempHumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9504A12619760700F33AC0 /* TempHumUITests.swift */; };
+		FBA14FE1261A92CA009D19C2 /* TempHum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA14FE0261A92CA009D19C2 /* TempHum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB9504932619760700F33AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9504792619760600F33AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9504802619760600F33AC0;
+			remoteInfo = TempHum;
+		};
+		FB95049E2619760700F33AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9504792619760600F33AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9504802619760600F33AC0;
+			remoteInfo = TempHum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB9504812619760600F33AC0 /* TempHumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempHumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9504842619760600F33AC0 /* TempHumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHumApp.swift; sourceTree = "<group>"; };
+		FB9504862619760600F33AC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB9504882619760600F33AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB95048B2619760600F33AC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB95048D2619760700F33AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9504922619760700F33AC0 /* TempHumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempHumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9504962619760700F33AC0 /* TempHumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHumTests.swift; sourceTree = "<group>"; };
+		FB9504982619760700F33AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB95049D2619760700F33AC0 /* TempHumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempHumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9504A12619760700F33AC0 /* TempHumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHumUITests.swift; sourceTree = "<group>"; };
+		FB9504A32619760700F33AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA14FE0261A92CA009D19C2 /* TempHum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempHum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB95047E2619760600F33AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95048F2619760700F33AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95049A2619760700F33AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB9504782619760600F33AC0 = {
+			isa = PBXGroup;
+			children = (
+				FB9504832619760600F33AC0 /* TempHumApp */,
+				FB9504952619760700F33AC0 /* TempHumTests */,
+				FB9504A02619760700F33AC0 /* TempHumUITests */,
+				FB9504822619760600F33AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9504822619760600F33AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9504812619760600F33AC0 /* TempHumApp.app */,
+				FB9504922619760700F33AC0 /* TempHumAppTests.xctest */,
+				FB95049D2619760700F33AC0 /* TempHumAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9504832619760600F33AC0 /* TempHumApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB9504842619760600F33AC0 /* TempHumApp.swift */,
+				FB9504862619760600F33AC0 /* ContentView.swift */,
+				FB9504882619760600F33AC0 /* Assets.xcassets */,
+				FB95048D2619760700F33AC0 /* Info.plist */,
+				FB95048A2619760600F33AC0 /* Preview Content */,
+				FBA14FE0261A92CA009D19C2 /* TempHum.swift */,
+			);
+			path = TempHumApp;
+			sourceTree = "<group>";
+		};
+		FB95048A2619760600F33AC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB95048B2619760600F33AC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB9504952619760700F33AC0 /* TempHumTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9504962619760700F33AC0 /* TempHumTests.swift */,
+				FB9504982619760700F33AC0 /* Info.plist */,
+			);
+			path = TempHumTests;
+			sourceTree = "<group>";
+		};
+		FB9504A02619760700F33AC0 /* TempHumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9504A12619760700F33AC0 /* TempHumUITests.swift */,
+				FB9504A32619760700F33AC0 /* Info.plist */,
+			);
+			path = TempHumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9504802619760600F33AC0 /* TempHumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9504A62619760700F33AC0 /* Build configuration list for PBXNativeTarget "TempHumApp" */;
+			buildPhases = (
+				FB95047D2619760600F33AC0 /* Sources */,
+				FB95047E2619760600F33AC0 /* Frameworks */,
+				FB95047F2619760600F33AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempHumApp;
+			productName = TempHum;
+			productReference = FB9504812619760600F33AC0 /* TempHumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB9504912619760700F33AC0 /* TempHumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9504A92619760700F33AC0 /* Build configuration list for PBXNativeTarget "TempHumAppTests" */;
+			buildPhases = (
+				FB95048E2619760700F33AC0 /* Sources */,
+				FB95048F2619760700F33AC0 /* Frameworks */,
+				FB9504902619760700F33AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9504942619760700F33AC0 /* PBXTargetDependency */,
+			);
+			name = TempHumAppTests;
+			productName = TempHumTests;
+			productReference = FB9504922619760700F33AC0 /* TempHumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB95049C2619760700F33AC0 /* TempHumAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9504AC2619760700F33AC0 /* Build configuration list for PBXNativeTarget "TempHumAppUITests" */;
+			buildPhases = (
+				FB9504992619760700F33AC0 /* Sources */,
+				FB95049A2619760700F33AC0 /* Frameworks */,
+				FB95049B2619760700F33AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB95049F2619760700F33AC0 /* PBXTargetDependency */,
+			);
+			name = TempHumAppUITests;
+			productName = TempHumUITests;
+			productReference = FB95049D2619760700F33AC0 /* TempHumAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB9504792619760600F33AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FB9504802619760600F33AC0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FB9504912619760700F33AC0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FB9504802619760600F33AC0;
+					};
+					FB95049C2619760700F33AC0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FB9504802619760600F33AC0;
+					};
+				};
+			};
+			buildConfigurationList = FB95047C2619760600F33AC0 /* Build configuration list for PBXProject "TempHumApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB9504782619760600F33AC0;
+			productRefGroup = FB9504822619760600F33AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9504802619760600F33AC0 /* TempHumApp */,
+				FB9504912619760700F33AC0 /* TempHumAppTests */,
+				FB95049C2619760700F33AC0 /* TempHumAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB95047F2619760600F33AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95048C2619760600F33AC0 /* Preview Assets.xcassets in Resources */,
+				FB9504892619760600F33AC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9504902619760700F33AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95049B2619760700F33AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB95047D2619760600F33AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9504872619760600F33AC0 /* ContentView.swift in Sources */,
+				FB9504852619760600F33AC0 /* TempHumApp.swift in Sources */,
+				FBA14FE1261A92CA009D19C2 /* TempHum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95048E2619760700F33AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9504972619760700F33AC0 /* TempHumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9504992619760700F33AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9504A22619760700F33AC0 /* TempHumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB9504942619760700F33AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9504802619760600F33AC0 /* TempHumApp */;
+			targetProxy = FB9504932619760700F33AC0 /* PBXContainerItemProxy */;
+		};
+		FB95049F2619760700F33AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9504802619760600F33AC0 /* TempHumApp */;
+			targetProxy = FB95049E2619760700F33AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB9504A42619760700F33AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB9504A52619760700F33AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9504A72619760700F33AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TempHumApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SZ6RM583B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TempHumApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radical-dreamer.TempHum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB9504A82619760700F33AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TempHumApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SZ6RM583B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TempHumApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radical-dreamer.TempHum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB9504AA2619760700F33AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TempHumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radical-dreamer.TempHumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempHumApp.app/TempHumApp";
+			};
+			name = Debug;
+		};
+		FB9504AB2619760700F33AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TempHumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radical-dreamer.TempHumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempHumApp.app/TempHumApp";
+			};
+			name = Release;
+		};
+		FB9504AD2619760700F33AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TempHumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radical-dreamer.TempHumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempHum;
+			};
+			name = Debug;
+		};
+		FB9504AE2619760700F33AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TempHumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radical-dreamer.TempHumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempHum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB95047C2619760600F33AC0 /* Build configuration list for PBXProject "TempHumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9504A42619760700F33AC0 /* Debug */,
+				FB9504A52619760700F33AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9504A62619760700F33AC0 /* Build configuration list for PBXNativeTarget "TempHumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9504A72619760700F33AC0 /* Debug */,
+				FB9504A82619760700F33AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9504A92619760700F33AC0 /* Build configuration list for PBXNativeTarget "TempHumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9504AA2619760700F33AC0 /* Debug */,
+				FB9504AB2619760700F33AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9504AC2619760700F33AC0 /* Build configuration list for PBXNativeTarget "TempHumAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9504AD2619760700F33AC0 /* Debug */,
+				FB9504AE2619760700F33AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB9504792619760600F33AC0 /* Project object */;
+}
