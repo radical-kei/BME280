@@ -30,7 +30,7 @@ class TempHum : ObservableObject{
     
     func recv(connection: NWConnection) {
         let semaphore = DispatchSemaphore(value: 0)
-        connection.receive(minimumIncompleteLength: 0, maximumLength: 66535, completion:{(data, context, flag, error) in
+        connection.receive(minimumIncompleteLength: 0, maximumLength: 65535, completion:{(data, context, flag, error) in
             if let error = error {
                 NSLog("\(#function), \(error)")
             } else {
