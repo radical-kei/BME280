@@ -94,7 +94,7 @@ void get_temp_server(void){
 
     while(1)
     {
-        memset(buf, 0, sizeof(BUFSIZE));
+        memset(buf, 0, BUFSIZE);
         if ((recvMsgSize = recv(clitSock, buf, BUFSIZE, 0)) < 0)
         {
             fprintf(stderr, "Failed recv().\n");
@@ -108,7 +108,7 @@ void get_temp_server(void){
 
         if (get_temp(&comp_data) == 0)
         {
-            memset(buf, 0, sizeof(BUFSIZE));
+            memset(buf, 0, BUFSIZE);
             sprintf(buf, "%0.2lf deg C, %0.2lf hPa, %0.2lf%%\n", comp_data.temperature, comp_data.pressure * 0.01, comp_data.humidity);
         }
 
